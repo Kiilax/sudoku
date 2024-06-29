@@ -1,0 +1,15 @@
+@startuml Sudoku
+class Main {
+    +main(args : String[])
+}
+package grille {
+    class GrilleSudoku {
+        -tabGrille : Integer[]
+        +<<Create>>GrilleSudoku()
+        -genereGrille() :
+        +toString() : String
+    }
+}
+
+Main -[dashed]-->GrilleSudoku : <<uses>>
+@enduml
