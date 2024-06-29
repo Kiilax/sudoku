@@ -1,5 +1,5 @@
 # Sudoku :
-Le projet est créer le (très connu) jeu du `Sudoku`.
+Le projet est de créer le (très connu) jeu du `Sudoku` en java.
 ### Ce qui est fait :
 - Le code est capable de créer une infinité de grilles `Sudoku` entières.
 - Le code affiche cette grille quand on exécute le programme.
